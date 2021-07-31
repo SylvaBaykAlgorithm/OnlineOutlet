@@ -1,15 +1,16 @@
 import React from 'react';
 import "./Checkout.css";
+import Subtotal from './Subtotal';
 
 export default function Checkout() {
     return (
         <div className="checkout">
             <div className="left-side">
-                <p>THis is the left side of the checkout section</p>
+                <h1 className="checkoutHeader">Shopping Cart</h1>
                 <button className="gametimeButton"> Its Gametime</button>
             </div>
             <div className="right-side">
-                <p>THis is the right side of the checkout screeen</p>
+                <Subtotal />
             </div>
             
         </div>
