@@ -15,7 +15,7 @@ function Header() {
             <Link to='/'>
             <img alt=""
                 className="header__logo"
-                src='https://images-na.ssl-images-amazon.com/images/I/41E7zhXGVxL._AC_.jpg'
+                src="55408787.png"
             />
             </Link>
             

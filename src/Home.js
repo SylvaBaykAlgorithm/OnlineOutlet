@@ -6,7 +6,8 @@ function Home() {
         <div className="home">
             <div className="home__container">
                 <img
-                className="home__image" src='https://i.ytimg.com/vi/4rgo4yeC3C4/maxresdefault.jpg' />
+                alt=""
+                className="home__image" src='artPhotos.jpg' />
            
                 <div className="home__row">
                 <Product id="132943" price="19.99" title="The best banana pudding in the world" image='https://hips.hearstapps.com/vidthumb/images/delish-banana-pudding-cheesecake-still001-1526076114.jpg' rating={5} />
