@@ -1,12 +1,12 @@
     export const initialState = {
-        basket: [],
+        bag: [],
     };
 
 
 
     //selector
-    export const getBasketTotal = (basket) => {
-            basket?.reduce((amount,item) => item.price + amount, 0);
+    export const getBagTotal = (bag) => {
+            bag?.reduce((amount,item) => item.price + amount, 0);
 
     };
 
@@ -15,7 +15,7 @@
             case "ADD_TO_BAG":
                 return {
                     ...state,
-                    basket:[...state.basket,action.item],
+                    bag:[...state.bag,action.item],
                 };
 
             default: 
