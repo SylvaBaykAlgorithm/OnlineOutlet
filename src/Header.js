@@ -6,7 +6,7 @@ import {Link} from "react-router-dom"
 import { useStateValue } from './StateProvider';
 
 function Header() {
-    const [{ basket },dispatch] = useStateValue();
+    const [{ bag },dispatch] = useStateValue();
 
 
 
